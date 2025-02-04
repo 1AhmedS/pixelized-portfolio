@@ -33,7 +33,7 @@ To run this portfolio website locally, follow the steps below:
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/pixelized-portfolio.git
+git clone https://github.com/1AhmedS/pixelized-portfolio.git
 ```
 ### 2. Navigate into the project directory:
 bash
