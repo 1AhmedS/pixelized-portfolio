@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Samir | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="1DPFP.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <img src="1DPFP.png" alt="Logo" class="logo">
+        <nav>
+            <a href="#" onclick="loadPage('home')">Home</a>
+            <a href="#" onclick="loadPage('projects')">Projects</a>
+            <a href="#" onclick="loadPage('about')">About</a>
+            <a href="#" onclick="loadPage('contact')">Contact</a>
+        </nav>
+    </header>
+    <div id="content">
+
+    </div>
+</div>
+</body>
+<script>
+function toggleSidebar() {
+    let sidebar = document.querySelector('.sidebar');
+    let menuIcon = document.querySelector('.menu-icon');
+
+    if (sidebar.style.left === "0px") {
+        sidebar.style.left = "-250px";
+        menuIcon.classList.remove("active");
+        menuIcon.classList.replace("fa-xmark", "fa-bars");
+    } else {
+        sidebar.style.left = "0px"; 
+        menuIcon.classList.add("active");
+        menuIcon.classList.replace("fa-bars", "fa-xmark");
+    }
+}
+
+</script>
+<script src="script.js"></script>
+</html>
