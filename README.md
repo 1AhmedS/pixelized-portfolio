@@ -71,7 +71,7 @@ Feel free to fork this repository and submit pull requests for any changes or im
 
 Feel free to reach out to me through the following channels:
 
-- **Contact:** [Personal Contact](https://ahmeds-profile.web.app/contact.html)
+- **Contact:** [Personal Contact](https://profileahmed.netlify.app/)
 - **Email:** ahmedtv027@gmail.com
 
 ## Social Media
