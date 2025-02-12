@@ -122,7 +122,7 @@ function loadPage(page) {
                             <div class="form-container">
                                 <h2>Fill out the form below to reach out to me</h2>
                                 <form id="contactForm" method="POST">
-                                    <input type="hidden" name="access_key" value="54afa38c-20bf-4408-bfa0-17f7e7fb55dd">
+                                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY(https://web3forms.com/)">
                                     <input type="hidden" name="subject" value="New Contact From (Portfolio Test)" />
                                     <input type="checkbox" name="botcheck" style="display: none;" />
                     
